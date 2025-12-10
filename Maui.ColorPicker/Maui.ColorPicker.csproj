@@ -6,10 +6,10 @@
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net9.0-tizen</TargetFrameworks> -->		
 		<SingleProject>true</SingleProject>
-    <UseMaui>true</UseMaui>
-    <MauiCompile>true</MauiCompile>
-    <EmbedAllSources>true</EmbedAllSources>
-    <IncludeMauiXaml>true</IncludeMauiXaml>
+		<UseMaui>true</UseMaui>
+		<MauiCompile>true</MauiCompile>
+		<EmbedAllSources>true</EmbedAllSources>
+		<IncludeMauiXaml>true</IncludeMauiXaml>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
